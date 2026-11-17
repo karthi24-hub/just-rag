@@ -1,0 +1,82 @@
+2026-06-15 13:54:13,567 - INFO - Process starting. Python: Z:\projects\RAG\ragp1\.venv\Scripts\python.exe
+2026-06-15 13:54:13,567 - INFO - CWD: Z:\projects\RAG\ragp1
+2026-06-15 13:54:13,574 - INFO - Added Z:\projects\RAG\ragp1\server to sys.path
+2026-06-15 13:54:13,574 - INFO - Importing mcp...
+2026-06-15 13:54:15,068 - INFO - Importing ollama...
+2026-06-15 13:54:15,779 - INFO - Importing langchain...
+2026-06-15 13:54:30,133 - INFO - Importing internal utils...
+2026-06-15 13:54:31,576 - INFO - Initializing FastMCP...
+2026-06-15 13:54:31,580 - DEBUG - Initializing server 'Universal AI Knowledge Assistant'
+2026-06-15 13:54:31,581 - DEBUG - Registering handler for ListToolsRequest
+2026-06-15 13:54:31,581 - DEBUG - Registering handler for CallToolRequest
+2026-06-15 13:54:31,582 - DEBUG - Registering handler for ListResourcesRequest
+2026-06-15 13:54:31,583 - DEBUG - Registering handler for ReadResourceRequest
+2026-06-15 13:54:31,583 - DEBUG - Registering handler for PromptListRequest
+2026-06-15 13:54:31,583 - DEBUG - Registering handler for GetPromptRequest
+2026-06-15 13:54:31,583 - DEBUG - Registering handler for ListResourceTemplatesRequest
+2026-06-15 13:54:31,589 - INFO - Initializing utilities...
+2026-06-15 13:54:31,589 - ERROR - FATAL ERROR DURING STARTUP: name 'Path' is not defined
+Traceback (most recent call last):
+  File "Z:\projects\RAG\ragp1\server\mcp_server.py", line 43, in <module>
+    vector_store = get_vector_store()
+  File "Z:\projects\RAG\ragp1\server\utils\vector_store.py", line 43, in get_vector_store
+    return VectorStore()
+  File "Z:\projects\RAG\ragp1\server\utils\vector_store.py", line 11, in __init__
+    persist_directory = str(Path(__file__).parent.parent.parent / "data" / "chroma_db")
+                            ^^^^
+NameError: name 'Path' is not defined
+2026-06-15 13:54:51,298 - INFO - Process starting. Python: Z:\projects\RAG\ragp1\.venv\Scripts\python.exe
+2026-06-15 13:54:51,299 - INFO - CWD: Z:\projects\RAG\ragp1
+2026-06-15 13:54:51,305 - INFO - Added Z:\projects\RAG\ragp1\server to sys.path
+2026-06-15 13:54:51,305 - INFO - Importing mcp...
+2026-06-15 13:54:52,838 - DEBUG - Initializing server 'Universal AI Knowledge Assistant'
+2026-06-15 13:54:52,839 - DEBUG - Registering handler for ListToolsRequest
+2026-06-15 13:54:52,839 - DEBUG - Registering handler for CallToolRequest
+2026-06-15 13:54:52,839 - DEBUG - Registering handler for ListResourcesRequest
+2026-06-15 13:54:52,839 - DEBUG - Registering handler for ReadResourceRequest
+2026-06-15 13:54:52,839 - DEBUG - Registering handler for PromptListRequest
+2026-06-15 13:54:52,840 - DEBUG - Registering handler for GetPromptRequest
+2026-06-15 13:54:52,840 - DEBUG - Registering handler for ListResourceTemplatesRequest
+2026-06-15 13:54:52,846 - INFO - FastMCP object created.
+2026-06-15 13:54:52,846 - INFO - Server logic ready for lazy initialization.
+2026-06-15 13:54:52,896 - DEBUG - Using proactor: IocpProactor
+2026-06-15 14:00:33,045 - INFO - Process starting. Python: Z:\projects\RAG\ragp1\.venv\Scripts\python.exe
+2026-06-15 14:00:33,045 - INFO - CWD: Z:\projects\RAG\ragp1
+2026-06-15 14:00:33,051 - INFO - Added Z:\projects\RAG\ragp1\server to sys.path
+2026-06-15 14:00:33,051 - INFO - Importing mcp...
+2026-06-15 14:00:34,721 - DEBUG - Initializing server 'Universal AI Knowledge Assistant'
+2026-06-15 14:00:34,721 - DEBUG - Registering handler for ListToolsRequest
+2026-06-15 14:00:34,722 - DEBUG - Registering handler for CallToolRequest
+2026-06-15 14:00:34,722 - DEBUG - Registering handler for ListResourcesRequest
+2026-06-15 14:00:34,722 - DEBUG - Registering handler for ReadResourceRequest
+2026-06-15 14:00:34,722 - DEBUG - Registering handler for PromptListRequest
+2026-06-15 14:00:34,723 - DEBUG - Registering handler for GetPromptRequest
+2026-06-15 14:00:34,723 - DEBUG - Registering handler for ListResourceTemplatesRequest
+2026-06-15 14:00:34,729 - INFO - FastMCP object created.
+2026-06-15 14:00:34,729 - INFO - Server logic ready for lazy initialization.
+2026-06-15 14:00:34,770 - DEBUG - Using proactor: IocpProactor
+2026-06-15 14:00:34,784 - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-06-15 14:00:34,785 - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x0000017CF7146710>
+2026-06-15 14:00:34,785 - INFO - Processing request of type CallToolRequest
+2026-06-15 14:00:34,786 - DEBUG - Dispatching request of type CallToolRequest
+2026-06-15 14:00:34,786 - DEBUG - Tool cache miss for read_file, refreshing cache
+2026-06-15 14:13:15,201 - INFO - Process starting. Python: Z:\projects\RAG\ragp1\.venv\Scripts\python.exe
+2026-06-15 14:13:15,201 - INFO - CWD: Z:\projects\RAG\ragp1
+2026-06-15 14:13:15,208 - INFO - Added Z:\projects\RAG\ragp1\server to sys.path
+2026-06-15 14:13:15,208 - INFO - Importing mcp...
+2026-06-15 14:13:17,050 - DEBUG - Initializing server 'Universal AI Knowledge Assistant'
+2026-06-15 14:13:17,050 - DEBUG - Registering handler for ListToolsRequest
+2026-06-15 14:13:17,050 - DEBUG - Registering handler for CallToolRequest
+2026-06-15 14:13:17,050 - DEBUG - Registering handler for ListResourcesRequest
+2026-06-15 14:13:17,051 - DEBUG - Registering handler for ReadResourceRequest
+2026-06-15 14:13:17,051 - DEBUG - Registering handler for PromptListRequest
+2026-06-15 14:13:17,051 - DEBUG - Registering handler for GetPromptRequest
+2026-06-15 14:13:17,051 - DEBUG - Registering handler for ListResourceTemplatesRequest
+2026-06-15 14:13:17,061 - INFO - FastMCP object created.
+2026-06-15 14:13:17,061 - INFO - Server logic ready for lazy initialization.
+2026-06-15 14:13:17,109 - DEBUG - Using proactor: IocpProactor
+2026-06-15 14:13:17,126 - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-06-15 14:13:17,128 - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F1AC0A6710>
+2026-06-15 14:13:17,129 - INFO - Processing request of type CallToolRequest
+2026-06-15 14:13:17,129 - DEBUG - Dispatching request of type CallToolRequest
+2026-06-15 14:13:17,129 - DEBUG - Tool cache miss for read_file, refreshing cache
